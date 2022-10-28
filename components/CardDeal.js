@@ -13,7 +13,7 @@ const CardDeal = () => (
         </div>
 
         <div className="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative">
-            <Image className="w-full h-full object-contain" src={card} />
+            <Image className="w-full h-full object-contain" src={card} alt="djf" />
         </div>
     </section>
 )

@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar text-white">
-      <Image className="w-[124px] h-[32px]" src={logo} alt="" />
+      <Image className="w-[124px] h-[32px]" src={logo} alt="fg" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li key={index}
@@ -30,7 +30,7 @@ function Navbar() {
       >
         <Image
           className="w-7 h-7 object-contain"
-          src={toggleMenu ? close : menu} alt=""
+          src={toggleMenu ? close : menu} alt="fg"
           onClick={() => setToggleMenu(!toggleMenu)}
         />
         <div className={`${toggleMenu ? 'w-[300px] bg-black fixed top-0 right-0 h-screen py-32' : 'hidden'}`}>

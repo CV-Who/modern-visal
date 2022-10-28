@@ -6,7 +6,7 @@ const Footer = () => (
     <section className="flex flex-col items-center justify-center sm:py-16 py-6">
         <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
             <div className="flex-1 flex flex-col justify-start mr-10">
-                <Image className="w-[200px] h-[72px] object-contain" src={logo} />
+                <Image alt="logo" className="w-[200px] h-[72px] object-contain" src={logo} />
                 <p className="text-gray-400  max-w-[300px] mt-4">A new way to make the payments easy, reliable and secure.</p>
             </div>
             <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
@@ -32,6 +32,7 @@ const Footer = () => (
                     <Image className="w-[21px] h-[21px] object-contain cursor-pointer"
                     src={social.icon}
                     key={social.id}
+                    alt={social.id}
                     />
                 ))}
             </div>

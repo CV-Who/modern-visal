@@ -8,7 +8,7 @@ const GetStarted = () => (
         <div className="bg-black w-full h-full rounded-full text-center pt-8">
             <div className="flex items-center justify-center">
                 <h1 className="text-xl">Get</h1>
-                <Image src={arrowUp} />
+                <Image src={arrowUp} alt="rgf" />
             </div>
             <h1 className="text-xl">Started</h1>
         </div>

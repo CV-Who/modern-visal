@@ -9,7 +9,7 @@ function Hero() {
         <section id="home" className="flex md:flex-row flex-col sm:py-16 py-10 xl:px-16">
             <div className="flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-10">
                 <div className="flex flex-row items-center px-4 rounded-[10px] bg-gradient-to-r from-gray-700 to-gray-400 mb-2">
-                    <Image src={discount} />
+                    <Image src={discount} alt="fd" />
                     <p className="font-poppins font-normal text-dimWhite text-[12px] ml-2">
                         <span className="text-white">20%</span> Discount For {""}
                         <span className="text-white">1 Month</span> Account
@@ -88,7 +88,7 @@ function Hero() {
                         duration: 0.5
                     }}
                 >
-                    <Image className="w-full h-full relative z-[5]" src={robot} />
+                    <Image className="w-full h-full relative z-[5]" src={robot} alt="fgf" />
                 </m.div>
                 <div className="absolute z-0 w-[40%] h-[40%] top-0 right-[40px] pink__gradient" />
                 <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
